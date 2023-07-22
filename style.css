@@ -54,31 +54,16 @@ body {
   }
 
   #footer {
-
     height: 300px;
     display: flex;
     align-items: flex-end;
     flex-direction: column-reverse;
-
   }
 
-
-  /* Hint: What can you do with a media query and flexbox? */
   @media (min-width: 1024px) {
     .pricing-container {
-      display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      flex-wrap: nowrap;
-      gap: 15px;
-    }
-
-    div>.pricing-plan {
-      border: #FFF5E4 solid 2px;
-      background-color: #FFE3E1;
-      text-align: center;
-      min-width: 300px;
-      border-radius: 8px;
     }
   }
